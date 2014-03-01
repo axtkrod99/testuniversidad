@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Universidad Virtual</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="../css/skel-noscript.css" />
+			<link rel="stylesheet" href="../css/style.css" />
+			<link rel="stylesheet" href="../css/style-wide.css" />
+		</noscript>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div id="header" class="skel-panels-fixed" >
+			<div class="top">
+
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+					<!--Nombre del usuario y rol-->
+					<h1 id="title">Jane Doe</h1>
+					<span class="byline">Hyperspace Engineer</span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul><!--Elementos de la barra de navegacion -->
+						<li><a href="index.html" id="inicio-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Inicio</span></a></li>
+								
+						<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa">Carreras</span></a></li>
+
+						<li><a href="materia.html" id="contrasena-link" class="skel-panels-ignoreHref"><span class="fa">Materias</span></a></li>
+
+						<li><a href="temas.html" id="domicilioparticular-link" class="skel-panels-ignoreHref"><span class="fa">Temas</span></a></li>
+								
+						<li><a href="actividades.html" id="infolaboral-link" class="skel-panels-ignoreHref"><span class="fa">Actividades</span></a></li>
+								
+						<li><a href="crearexamen.html" id="domiciliocorrespondencia-link" class="skel-panels-ignoreHref"><span class="fa">Examen</span></a></li>
+
+						<li><a href="recursos.html" id="infoacademica-link" class="skel-panels-ignoreHref"><span class="fa">Recursos</span></a></li>
+
+						<li><a href="preguntas.html" id="comunicacion-link" class="skel-panels-ignoreHref"><span class="fa">Preguntas</span></a></li>
+
+						<li><a href="glosario.html" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa">Glosario</span></a></li>
+					</ul>
+				</nav>						
+			</div>			
+		</div>
+
+		<!--Seccion Principal-->
+		<div id="main">
+			<!-- Materia nueva -->
+			<section id="top" class="one">
+				<div class="container">
+					<header>
+						<h2 class="alt">Materia</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="6u"><label type="text" class="text" name="carrera"/>Agrega una materia nueva:</div>
+						<div class="6u"><label type="text" class="text" name="nombremateria"/>Nombre de la materia:</div>
+						<div class="6u"><input type="text" class="text" name="nombremateria"/></div>
+								
+						<div class="6u"><label type="text" class="text" name="tipoarea"/>Area:<br>	
+							<select>
+								<option value selected="selected">----------</option>
+								<option value="humanidades">Humanidades</option>
+								<option value="ciencias">Ciencias</option>
+								<option value="tecnologia">Tecnologia</option>
+							</select>
+						</div>
+
+						<div class="6u"><label type="text" class="text" name="tipo"/>Tipo:<br>	
+							<select>
+								<option value selected="selected">----------</option>
+								<option value="troncocomun">Tronco comun</option>
+								<option value="especialidad">Especialidad</option>
+							</select>
+						</div>
+
+						<div class="6u"><label type="text" class="text" name="cuatrimestre"/>Cuatrimestre:<br>	
+							<select>
+								<option value selected="selected">----------</option>
+								<option value="uno">1</option>
+								<option value="dos">2</option>
+								<option value="dos">3</option>
+								<option value="dos">4</option>
+								<option value="dos">5</option>
+								<option value="dos">6</option>
+								<option value="dos">7</option>
+								<option value="dos">8</option>
+								<option value="dos">9</option>
+							</select>
+						</div>
+
+						<div class="6u"><label type="text" class="text" name="numeroparciales"/>Parciales a evaluar:<br>	
+							<select>
+								<option value selected="selected">----------</option>
+								<option value="uno">1</option>
+								<option value="dos">2</option>
+								<option value="tres">3</option>
+							</select>
+						</div>
+
+						<div class="6u"><label type="text" class="text" name="estatus"/>Estatus:<br>	
+							<select>
+								<option value selected="selected">----------</option>
+								<option value="activo">Activo</option>
+								<option value="inactivo">Inactivo</option>
+							</select>
+						</div>
+					</form>
+
+					<footer>
+						<a href="#portfolio" class="button">Guardar Datos</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

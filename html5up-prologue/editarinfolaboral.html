@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Universidad Virtual</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div id="header" class="skel-panels-fixed" >
+			<div class="top">
+
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="title">Jane Doe</h1>
+					<span class="byline">Hyperspace Engineer</span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" id="inicio-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Inicio</span></a></li>
+								
+						<li><a href="editardatos.html" id="top-link" class="skel-panels-ignoreHref"><span class="fa">Datos Personales</span></a></li>
+
+						<li><a href="editarcontrasena.html" id="contrasena-link" class="skel-panels-ignoreHref"><span class="fa">Contraseña</span></a></li>
+
+						<li><a href="editardomparticular.html" id="domicilioparticular-link" class="skel-panels-ignoreHref"><span class="fa">Domicilio Particular</span></a></li>
+								
+						<li><a href="#top" id="infolaboral-link" class="skel-panels-ignoreHref"><span class="fa">Informacion Laboral</span></a></li>
+								
+						<li><a href="editardomcorrespondencia.html" id="domiciliocorrespondencia-link" class="skel-panels-ignoreHref"><span class="fa">Domicilio Correspondencia</span></a></li>
+
+						<li><a href="editarhistorialacademico.html" id="infoacademica-link" class="skel-panels-ignoreHref"><span class="fa">Informacion Academica</span></a></li>
+
+						<li><a href="editarcomunicacion.html" id="comunicacion-link" class="skel-panels-ignoreHref"><span class="fa">Comunicacion</span></a></li>
+
+						<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa">Mis inscripciones</span></a></li>
+					</ul>
+				</nav>
+			</div>			
+		</div>
+
+		<!--Seccion Principal-->
+		<div id="main">			
+			<!-- Datos personales -->
+			<section id="top" class="one">
+				<div class="container">
+					<header>
+						<h2 class="alt">Informacion Laboral</h2>
+					</header>
+					<form method="post" action="#">
+						<label>¿Trabajas actualmente?</label>
+						<ul>
+							<li>
+								<label>
+									<input name="trabaja" type="radio" class="btn_radio" value="True" id="id_trabaja_0">Si
+								</label>
+							</li>
+							<li>
+								<label>
+									<input name="trabaja" type="radio" class="btn_radio" value="False" id="id_trabaja_1" checked="checked">No
+								</label>
+							</li>
+						</ul>
+
+						<label>Jornada laboral:</label>
+						<select id="idjornadalaboral" name="jornadalaboral">
+							<option value selected="selected">----------</option>
+							<option value="completa">Completa</option>
+							<option value="mediotiempo">Medio Tiempo</option>
+							<option value="independiente">Independiente/Freelance</option>
+						</select>
+
+						<div class="6u"><label type="text" class="text" name="nombreempresa"/>Nombre de la empresa:</div>
+						<div class="6u"><input type="text" class="text" name="nombreempresa" /></div>
+
+						<label>Giro de la empresa:</label>
+						<select id="idgiroempresa" name="giroempresa">
+							<option value selected="selected">----------</option>
+							<option value="1">Agricultura y ganaderia</option>
+							<option value="2">Alimentos y Bebidas</option>
+							<option value="3">Arquitectura</option>
+							<option value="4">Artística</option>
+							<option value="5">Automotriz</option>
+							<option value="6">Banca/Financiera</option>
+							<option value="7">Bienes Raíces</option>
+							<option value="8">Comercio Exterior</option>
+							<option value="9">Consenso y estadística</option>
+							<option value="10">Construcción</option>
+							<option value="11">Consultoría /Auditoria</option>
+							<option value="12">Cosmetología</option>
+							<option value="13">Deportes</option>
+							<option value="14">Discografía</option>
+							<option value="15">Diseño</option>
+							<option value="16">Ecología</option>
+							<option value="17">Educación</option>
+							<option value="18">Electrodomésticos</option>
+							<option value="19">Electrónica</option>
+							<option value="20">Entretenimiento</option>
+							<option value="21">Farmacéutica</option>
+							<option value="22">Fondo de inversión</option>
+							<option value="23">Gastronomía</option>
+							<option value="24">Gobierno</option>
+							<option value="25">Higiene y perfumería</option>
+							<option value="26">Hotelería</option>
+							<option value="27">Imprenta</option>
+							<option value="28">Industria energética</option>
+							<option value="29">Industria Gasera</option>
+							<option value="30">Industria Minera</option>
+							<option value="31">Información e investigación</option>
+							<option value="32">Inmobiliaria</option>
+							<option value="33">Jurídica</option>
+							<option value="34">Laboratorio</option>
+							<option value="35">Industria Madedera</option>
+							<option value="36">Manufactura</option>
+							<option value="37">Mayorístas</option>
+							<option value="38">Mecánica</option>
+							<option value="39">Medios de Comunicación</option>
+							<option value="40">Metalmecánica</option>
+							<option value="41">Metalurgía</option>
+							<option value="42">Milicia</option>
+							<option value="43">Papelera</option>
+							<option value="44">Industria Pesquera</option>
+							<option value="45">Petroquímica</option>
+							<option value="46">Pinturas</option>
+							<option value="47">Plásticos</option>
+							<option value="48">Poder judicial</option>
+							<option value="49">Productos para la construcción</option>
+							<option value="50">Publicidad/Marketing</option>
+							<option value="51">Química</option>			
+							<option value="52">Relaciones Públicas</option>
+							<option value="53">Retail</option>
+							<option value="54">Salud</option>
+							<option value="55">Seguridad</option>
+							<option value="56">Seguros</option>
+							<option value="57">Servicio Postal</option>
+							<option value="58">Servicio al Cliente</option>
+							<option value="59">Siderurgia</option>
+							<option value="60">Sistemas</option>
+							<option value="61">Industria Tabacalera</option>
+							<option value="62">Tecnología</option>
+							<option value="63">Telecomunicaciones</option>
+							<option value="64">Textil</option>
+							<option value="65">Transportadora</option>
+							<option value="66">Lógistica y Distribución</option>
+							<option value="67">Industria Turística</option>
+							<option value="68">Otros</option>
+						</select>
+
+						<label>Tipo de Puesto:</label>
+						<select id="idtipopuesto" name="tipopuesto">
+							<option value selected="selected">----------</option>
+							<option value="empresario">Empresario</option>
+							<option value="director">Director</option>
+							<option value="gerente">Gerente</option>
+							<option value="coordinador">Coordinador</option>
+							<option value="supervisor">Supervisor</option>
+							<option value="jefedepartamento">Jefe de departamento</option>
+							<option value="ejecutivo">Ejecutivo</option>
+							<option value="cajero">Cajero</option>
+							<option value="medico">Medico</option>
+							<option value="abogado">Abogado</option>
+							<option value="operador">Operador</option>
+							<option value="otro">Otro</option>
+						</select>
+
+						<label>Antiguedad:</label>
+						<select>
+							<option value selected="selected">----------</option>
+							<option value="menos1">Menos de 1 año</option>
+							<option value="1anio">1 año</option>
+							<option value="2anios">2 años</option>
+							<option value="3a5anios">3 a 5 años</option>
+							<option value="mas5">Mas de 5 años</option>
+						</select>
+
+						<label>Salario mensual:</label>
+						<select>
+							<option value selected="selected">----------</option>
+							<option value="1a3">$1,000 - $3,000</option>
+							<option value="3a6">$3,001 - $6,000</option>
+							<option value="6a9">$6,001 - $9,000</option>
+							<option value="9a12">$9,001 - $12,000</option>
+							<option value="12a15">$12,001 - $15,000</option>
+							<option value="mas15">Mas de $15,000</option>
+						</select>
+
+						<div class="6u"><label type="text" class="text" name="telefonoempresa"/>Calle:Telefono (10 digitos):</div>
+						<div class="6u"><input type="text" class="text" name="telefonoempresa" maxlength="10" /></div>
+
+						<div class="6u"><label type="text" class="text" name="calle"/>Calle:</div>
+						<div class="6u"><input type="text" class="text" name="calle" /></div>
+
+						<div class="6u"><label type="text" class="text" name="noexterior"/>No. Exterior:</div>
+						<div class="6u"><input type="text" class="text" name="noexterior"/></div>
+
+						<div class="6u"><label type="text" class="text" name="nointerior"/>No. Interior:</div>
+						<div class="6u"><input type="text" class="text" name="nointerior" /></div>
+									
+						<div class="6u"><label type="text" class="text" name="colonia"/>Colonia:</div>
+						<div class="6u"><input type="text" class="text" name="colonia" /></div>
+						
+						<div class="6u"><label type="text" class="text" name="cpostal"/>Codigo Postal:</div>
+						<div class="6u"><input type="text" class="text" name="cpostal" /></div>
+
+						<div class="6u"><label type="text" class="text" name="municipio"/>Municipio:</div>
+						<div class="6u"><input type="text" class="text" name="municipio" /></div>
+
+						<div class="6u"><label type="text" class="text" name="estado"/>Estado:</div>
+						<div class="6u"><input type="text" class="text" name="estado" /></div>
+
+						<div class="6u"><label type="text" class="text" name="pais"/>Pais:</div>
+						<div class="6u"><input type="text" class="text" name="pais" /></div>
+					</form>
+
+					<footer>
+						<a href="#top" class="button">Cancelar</a>
+						<a href="#top" class="button">Guardar Datos</a>
+					</footer>
+
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

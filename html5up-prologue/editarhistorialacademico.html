@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Universidad Virtual</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+	</head>
+
+	<body>
+		<!-- Header -->
+		<div id="header" class="skel-panels-fixed" >
+			<div class="top">
+
+				<!-- Logo -->
+				<div id="logo">
+					<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+					<h1 id="title">Jane Doe</h1>
+					<span class="byline">Hyperspace Engineer</span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" id="inicio-link" class="skel-panels-ignoreHref"><span class="fa fa-home">Inicio</span></a></li>
+								
+						<li><a href="editardatos.html" id="top-link" class="skel-panels-ignoreHref"><span class="fa">Datos Personales</span></a></li>
+
+						<li><a href="editarcontrasena.html" id="contrasena-link" class="skel-panels-ignoreHref"><span class="fa">Contraseña</span></a></li>
+
+						<li><a href="editardomparticular.html" id="domicilioparticular-link" class="skel-panels-ignoreHref"><span class="fa">Domicilio Particular</span></a></li>
+								
+						<li><a href="editarinfolaboral.html" id="infolaboral-link" class="skel-panels-ignoreHref"><span class="fa">Informacion Laboral</span></a></li>
+								
+						<li><a href="editardomcorrespondencia.html" id="domiciliocorrespondencia-link" class="skel-panels-ignoreHref"><span class="fa">Domicilio Correspondencia</span></a></li>
+
+						<li><a href="#top" id="infoacademica-link" class="skel-panels-ignoreHref"><span class="fa">Informacion Academica</span></a></li>
+
+						<li><a href="editarcomunicacion.html" id="comunicacion-link" class="skel-panels-ignoreHref"><span class="fa">Comunicacion</span></a></li>
+
+						<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa">Mis inscripciones</span></a></li>
+					</ul>
+				</nav>				
+			</div>
+		</div>
+
+		<!--Seccion Principal-->
+		<div id="main">
+			<!-- Datos personales -->
+			<section id="top" class="one">
+				<div class="container">
+					<header>
+						<h2 class="alt">Informacion academica</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="6u"><label type="text" class="text" name="institucionegreso"/>Nombre de la institucion de egreso:</div>
+						<div class="6u"><input type="text" class="text" name="institucionegreso" /></div>
+
+						<div class="6u"><label type="text" class="text" name="nivelacademico"/>Nivel academico:</div>
+						<div class="6u"><input type="text" class="text" name="nivelacademico" /></div>
+
+						<div class="6u"><label type="text" class="text" name="documentorecibido"/>Documento recibido:</div>
+						<select>
+							<option value selected="selected">----------</option>
+							<option value="constancia">Constancia</option>
+							<option value="certificado">Certificado</option>
+							<option value="titulo">Titulo</option>
+						</select>
+
+						<div class="6u"><label type="text" class="text" name="clavedocumento"/>Clave del documento:</div>
+						<div class="6u"><input type="text" class="text" name="clavedocumento" /></div>
+
+						<div class="6u"><label type="text" class="text" name="promedio"/>Promedio:</div>
+						<select>
+							<option value selected="selected">----------</option>
+							<option value="menos70">Menos de 70</option>
+							<option value="70a79">de 70 a 79</option>
+							<option value="80a89">de 80 a 89</option>
+							<option value="90a99">de 90 a 99</option>
+							<option value="100">100</option>
+						</select>
+
+						<div class="6u"><label type="text" class="text" name="fechaingreso"/>Fecha de ingreso:</div>
+						<input type="date" name="fechaingreso">
+
+						<div class="6u"><label type="text" class="text" name="fechaegreso"/>Fecha de egreso:</div>
+						<input type="date" name="fechaegreso">
+
+						<div class="6u"><label type="text" class="text" name="municipio"/>Municipio/Delegacion:</div>
+						<div class="6u"><input type="text" class="text" name="municipio" /></div>
+
+						<div class="6u"><label type="text" class="text" name="estado"/>Estado:</div>
+						<div class="6u"><input type="text" class="text" name="estado" /></div>
+
+						<div class="6u"><label type="text" class="text" name="pais"/>Pais:</div>
+						<div class="6u"><input type="text" class="text" name="pais" /></div>
+					</form>
+
+					<footer>
+						<a href="#top" class="button">Cancelar</a>
+						<a href="#top" class="button">Guardar Datos</a>
+					</footer>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

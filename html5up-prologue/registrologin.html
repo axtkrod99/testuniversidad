@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Registro</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<h2>Regristare</h2>
+		<form name='formulario' id='formulario' method='post' action='enviar.php' target='_self' enctype="multipart/form-data"> 
+			<label>Nombre:</label>
+			<input type="text" name="nombre"/><br>
+
+			<label>Apellido Paterno:</label>
+			<input type="text" name="apellidopaterno"/><br>
+
+			<label>Apellido Materno:</label>
+			<input type="text" name="apellidomaterno"/><br>
+
+			<label>Usuario:</label>
+			<input type="text" name="usuario"/><br>
+			
+			<label>Contraseña:</label>
+			<input type="password" name="contraseña"/><br>
+
+			<label>Correo electronico:</label>
+			<input type="text" name="correoelectronico"/><br>
+
+			<input type="submit" value="Registrar" name="registrar" /> <br>
+		</form>
+
+		<form name='login' id='login' method='post' action='enviar.php' target='_self'> 
+			<h2>Log in</h2>
+			<label>Usuario:</label>
+			<input type="text" name="usuario"/><br>
+			
+			<label>Contraseña:</label>
+			<input type="password" name="contraseña"/><br>
+
+			<input type="submit" value="Registrar" name="registrar" /> <br>
+		</form>
+	</body>
+</html>
